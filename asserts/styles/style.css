@@ -1,0 +1,14 @@
+#background01 {
+    width: 200px;
+    background: beige;
+    color: brown;
+}
+
+#head0 {
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+body {
+    background-color: cadetblue;
+}
