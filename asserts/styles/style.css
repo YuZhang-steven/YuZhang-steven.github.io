@@ -12,3 +12,52 @@
 body {
     background-color: cadetblue;
 }
+
+/* Basic Dropdown button circle*/
+.dropbtn {
+    background-color: beige;
+    margin: 4px 2px;
+    text-align: center;
+    color:black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn {border-radius: 50%;}
+
+/*Dropdown button hover and click effect*/
+.dropbtn:hover, .dropbtn:focus {
+    background-color: burlywood;
+}
+
+/*location of dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/*Dropdown: hidden effect by default*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+    z-index: 1;
+
+}
+
+/*Links inside the dropdown*/ 
+.dropdown-content a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/*Change color of dropdown links when hovering*/
+.dropdown-content a:hover {background-color: rgb(48, 33, 33);}
+
+/*show the dropdown menu(JS)*/
+.show{display: block;}
