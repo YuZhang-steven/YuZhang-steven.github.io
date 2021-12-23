@@ -1,16 +1,45 @@
+/* universal member */
+*{
+
+}
+
+
+/* id member */
+#header {
+padding: 0.5%;
+width: 20%;
+}
+
+#webname {
+font-size: 2vw;
+}
+
+
+
+
+#title_empty {
+    width: 20%;
+    
+   
+   
+}
+
 #big_title {
-    font-size: 30px;
-    color: blueviolet;
-    padding: 15px;
+    width: 75%;
+    font-size: 2.5vw;
+    
+    
+
+    padding-left: 10%;
+
 
 }
 
-#type_info {
 
-}
 
 #intro {
-
+    width: 75%;
+    padding-left: 10%;
 }
 
 #slides {
@@ -21,9 +50,30 @@
 
 }
 
+#footer {
+    display:flex;
+    gap: 10px;
+    
+    margin: 0px;
+}
 
 
 
+
+/* class member */
+.main_box {
+    width: 80vw;
+    display:flex;
+    margin: auto;
+    
+    
+}
+.type_info {
+    
+    text-align: right;
+    
+    width: 25%;
+}
 .type_name {
 
 }
